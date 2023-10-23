@@ -1,0 +1,32 @@
+/* Måkeklammer: Mac: Option->shift->8 */
+/* Windows: Control->Alt->7  */
+
+body {
+    /*background: lightgrey;*/
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+/* Sentrer bildet til midten av siden  */
+img {
+    text-align: center;
+}
+
