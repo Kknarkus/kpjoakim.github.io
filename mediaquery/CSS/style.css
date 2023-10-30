@@ -1,0 +1,27 @@
+body {
+    background: lightcyan;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: red;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    height: 60%;
+    background-color: blue;
+}
+
+.footer {
+    height: 20%;
+    background: yellow;
+}
