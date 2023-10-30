@@ -17,11 +17,32 @@ body {
 }
 
 .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60%;
     background-color: blue;
+}
+
+.middle img {
+    height: 100%;
+    width: 60%;
 }
 
 .footer {
     height: 20%;
     background: yellow;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .middle {
+        background: lightgreen;
+    }
+
+    .middle img {
+        height: 70%;
+        width: 100%;
+    }
+
+  }
