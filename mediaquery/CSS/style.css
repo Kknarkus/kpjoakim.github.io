@@ -7,7 +7,6 @@
 
 .header {
     background-color: lightgray;
-    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,12 +22,12 @@
 }
 
 .middle img {
-    height: 50%;
+    height: 70%;
     width: 30%;
+    padding: 1em;
 }
 
 .footer {
-    height: 20%;
     background-color: lightgray;
     width: 100%;
 }
@@ -38,6 +37,14 @@
 
     .middle {
         padding: 1em;
+        flex-wrap: wrap;
     }
+
+    .middle img {
+        height: 70%;
+        width: 70%;
+        padding: 1em;
+    }
+
 
   }
